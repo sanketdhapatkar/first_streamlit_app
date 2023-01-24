@@ -53,26 +53,26 @@ streamlit.dataframe(my_data_rows)
 #    
 #streamlit.write('The user entered ', fruit_choice)
 #
--#import requests
+#import requests
 
 
 
--#take the json version of response and normalize it
+#take the json version of response and normalize it
 
--# write your own comment - what does this do?
+# write your own comment - what does this do?
 
 
--#import snowflake.connector
+#import snowflake.connector
 
 #streamlit.header("View Our Fruit List - Add Your Favorites!")
--#Snowflake-related functions
+#Snowflake-related functions
 #def get_fruit_load_list():
 #    with my_cnx.cursor() as my_cur:
 #         my_cur.execute("select * from pc_rivery_db.public.fruit_load_list")
 #         return my_cur.fetchall()
 #    
     
--# Add a button to load the fruit
+# Add a button to load the fruit
 #if streamlit.button('Get Fruit List'):
 #    my_cnx = snowflake.connector.connect(**streamlit.secrets["snowflake"])
 #    my_data_rows = get_fruit_load_list()
@@ -80,7 +80,7 @@ streamlit.dataframe(my_data_rows)
 #    streamlit.dataframe(my_data_rows)
 
 
--#Allow the end user to add a fruit to the list
+#Allow the end user to add a fruit to the list
 #def insert_row_snowflake(new_fruit):
 #    with my_cnx.cursor() as my_cur:
 #         my_cur.execute("insert into pc_rivery_db.public.fruit_load_list values (' " + add_my_fruit + " ')")
